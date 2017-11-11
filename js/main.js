@@ -12,3 +12,10 @@ var article = document.getElementById('article');
 article.onmouseover = function () {
     article.innerHTML = '<img src="img/gn.jpg" title="gator" alt="gators" width="100"/>';
 };
+
+// Double click to change header
+var header = document.getElementById('header');
+
+header.ondblclick = function () {
+    header.innerHTML = '<h1>UF</h1>';
+};
